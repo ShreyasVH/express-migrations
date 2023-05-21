@@ -1,0 +1,16 @@
+{
+  "name": "express-migrations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "migrate-mongo": "^10.0.0",
+    "mongoose": "^7.1.1"
+  }
+}
