@@ -3,10 +3,10 @@
 const config = {
   mongodb: {
     // TODO Change (or review) the url to your MongoDB:
-    url: "mongodb://localhost:27019",
+    url: `mongodb://${process.env.MONGODB_IP}:${process.env.MONGODB_PORT}`,
 
     // TODO Change this to your database name:
-    databaseName: "book_store_express",
+    databaseName: `${process.env.MONGODB_DB}`,
 
     options: {
       useNewUrlParser: true, // removes a deprecation warning when connecting
